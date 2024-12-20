@@ -1,0 +1,32 @@
+
+  .content-wrapper {
+    height: 210px; 
+    overflow-y: auto; 
+    padding-top: 20px;
+    border: 1px rgb(160, 159, 159) solid;
+    border-radius: 0 0 10px 10px;
+  }
+  .tiptap-wrapper {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  .ProseMirror:focus {
+    outline: none;
+  }
+  .ProseMirror {
+    line-height: 0.5;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 10px;
+  }
+  
+  .toolbar button.active {
+    background-color: #e0e0e0; /* Màu nền nổi bật */
+    border: 1px solid #a4a2a2; /* Viền nổi bật */
+    border-radius: 5px;
+  }
+
+  .btn {
+    border: 1px solid rgb(117, 115, 115);
+  }

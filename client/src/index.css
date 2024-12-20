@@ -1,0 +1,93 @@
+
+@import '@fontsource/maven-pro/400.css';
+@import '@fontsource/maven-pro/500.css';
+@import '@fontsource/maven-pro/600.css';
+@import '@fontsource/maven-pro/700.css';
+@import '@fontsource/maven-pro/800.css';
+@import '@fontsource/maven-pro/900.css';
+
+Meyerweb Reset CSS
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+   font-family :  'Maven Pro', sans-serif;
+   user-select: none;
+   box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.react-datepicker {
+    border: 1px solid #2d5be4; /* Màu viền bảng (sử dụng màu gốc) */
+    border-radius: 8px;
+    color: #2d5be4;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-datepicker__header {
+    background-color: #f8f9fd; /* Màu nền header */
+    color: #2d5be4 !important;
+    border-bottom: 1px solid #244bc9; /* Màu đậm hơn của #2d5be4 */
+  }
+  
+  .react-datepicker__day {
+    color: #1e2e7e; /* Màu chữ mặc định (sáng hơn để tạo sự cân bằng) */
+  }
+  
+  .react-datepicker__day:hover {
+    background-color: #d1e1ff; /* Màu nhạt hơn khi hover (sáng hơn màu gốc) */
+    color: #2d5be4; /* Màu chữ gốc khi hover */
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #2d5be4; /* Màu khi ngày được chọn (giữ nguyên màu gốc) */
+    color: white;
+  }
+  
+ 
+  
+  .react-datepicker__day--keyboard-selected {
+    background-color: #4c78f2; /* Màu sáng hơn một chút khi chọn bằng bàn phím */
+    color: white;
+  }
+  

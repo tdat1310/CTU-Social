@@ -1,0 +1,32 @@
+.toolbar {
+    gap: 10px;
+    padding: 10px;
+    height: 25%;
+    background-color: #f8f9fa;
+    border: 1px rgb(160, 159, 159) solid;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  
+  .toolbar button{
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin-inline: 3px;
+    font-size: 18px;
+    border: none;
+    background: none;
+    color: #000;
+  }
+  .toolbar button:hover{
+    background-color: #e2e6ea;
+    border-radius: 0.25rem;
+  }
+  .toolbar button.active {
+    background-color: #e0e0e0; /* Màu nền nổi bật */
+    border: 1px solid #a4a2a2; /* Viền nổi bật */
+    border-radius: 5px;
+  }
